@@ -1,0 +1,48 @@
+$small-font: 1.8rem;
+$med-font: 2.5rem;
+$large-font: 4rem;
+//Tablet or Ipad//
+@media (min-width: 730px) {
+    .mainpage {
+        h1 {
+            font-size: $large-font;
+        }
+        p {
+            font-size: $small-font;
+        }
+    }
+    .button-grow {
+        font-size: $med-font;
+    }
+    footer {
+        a {
+            font-size: $small-font;
+        }
+    }
+}
+
+//Larger Tablets//
+@media (min-width: 1000px) {
+    .mainpage {
+        h1 {
+            font-size: $small-font;
+            margin-bottom: -30px;
+        }
+        p {
+            font-size: $small-font;
+        }
+    }
+    .giftbox {
+        display: flex;
+        justify-content: center;
+    }
+    .inline-photo {
+        padding-left: 20vw;
+        width: 55vw;
+    }
+    .button-grow {
+        font-size: $small-font;
+    }
+}
+
+@media (min-width: 1200px) {}

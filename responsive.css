@@ -1,0 +1,40 @@
+@media (min-width: 730px) {
+  .mainpage h1 {
+    font-size: 4rem;
+  }
+  .mainpage p {
+    font-size: 1.8rem;
+  }
+  .button-grow {
+    font-size: 2.5rem;
+  }
+  footer a {
+    font-size: 1.8rem;
+  }
+}
+
+@media (min-width: 1000px) {
+  .mainpage h1 {
+    font-size: 1.8rem;
+    margin-bottom: -30px;
+  }
+  .mainpage p {
+    font-size: 1.8rem;
+  }
+  .giftbox {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .inline-photo {
+    padding-left: 20vw;
+    width: 55vw;
+  }
+  .button-grow {
+    font-size: 1.8rem;
+  }
+}
+/*# sourceMappingURL=responsive.css.map */
